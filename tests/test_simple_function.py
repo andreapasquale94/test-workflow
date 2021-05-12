@@ -9,3 +9,4 @@ def test_addition():
 
 def test_stack():
     assert all(np.array([2, 2]) == stack(2, 2))
+
