@@ -1,4 +1,4 @@
-from workflow import addition, stack
+from workflow.simple_functions import addition, stack
 
 import numpy as np
 
