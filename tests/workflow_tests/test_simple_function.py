@@ -1,5 +1,4 @@
-from ..conftest import workflow
-from workflow.simple_function import addition, stack
+from src.workflow.simple_function import addition, stack
 
 import numpy as np
 
