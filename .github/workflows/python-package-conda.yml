@@ -17,8 +17,6 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
         architecture: 'x64'
-    # Test the matrix by printing the current Python version
-    - name: Display Python version
     - name: Add conda to system path
       run: |
         # $CONDA is an environment variable pointing to the root of the miniconda directory
