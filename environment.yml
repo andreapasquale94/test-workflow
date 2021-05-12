@@ -1,9 +1,0 @@
-name: test01
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - numpy
-  - pip
-  - pytest
-
